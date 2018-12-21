@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="an1" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" stylesheets="@CSTheme1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Main1Controller">
+   <children>
+      <AnchorPane fx:id="ap1" layoutY="129.0" prefHeight="270.0" prefWidth="800.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="160.0" />
+      <HBox alignment="CENTER" layoutY="32.0" prefHeight="80.0" prefWidth="600.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbsup" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setSup" onMouseEntered="#setSupEn" onMouseExited="#setSupEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Supplier.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tsup" text="Supplier" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbemp" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setEmp" onMouseEntered="#setEmpEn" onMouseExited="#setEmpEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Employees.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="temp" text="Employee" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbproduct" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setPro" onMouseEntered="#setProEn" onMouseExited="#setProEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Product.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tpro" text="Product" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbinvoice" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setInv" onMouseEntered="#setInvEn" onMouseExited="#setInvEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Invoice.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tinvo" text="Invoice" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbpayroll" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setPay" onMouseEntered="#setPayEn" onMouseExited="#setPayEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Pay.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tpay" text="Payroll" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbgrn" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setGrn" onMouseEntered="#setGrnEn" onMouseExited="#setGrnEx" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image3/GRN.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tgrn" text="GRN" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbattend" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setAttend" onMouseEntered="#setAttendEn" onMouseExited="#setAttendEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Attendence.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tatt" text="Attendence" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="lbsettings" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#setSetting" onMouseEntered="#setSettingEn" onMouseExited="#setSettingEx" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Image3/Settings.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tseti" text="Settings" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+      <AnchorPane layoutX="655.0" layoutY="-93.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="iview" fitHeight="40.0" fitWidth="150.0" layoutX="740.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../Image2/1c1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="725.0" layoutY="-1.0" onMouseClicked="#setClose" onMouseEntered="#setCloseIconEn" onMouseExited="#setCloseIconEx" prefHeight="29.0" prefWidth="48.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="27.0" AnchorPane.topAnchor="0.0" />
+            <Label layoutX="668.0" layoutY="-2.0" onMouseClicked="#setMini" onMouseEntered="#setMiniIconEn" onMouseExited="#setMiniIconEx" prefHeight="29.0" prefWidth="48.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

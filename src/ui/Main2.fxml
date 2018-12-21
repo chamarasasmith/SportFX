@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: TRANSPARENT;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Main2Controller">
+   <children>
+      <AnchorPane fx:id="ap1" layoutX="82.0" layoutY="57.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0" />
+      <ImageView fx:id="ivsup" fitHeight="100.0" fitWidth="100.0" layoutX="299.0" layoutY="200.0" onMouseClicked="#setSup" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/sup.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivemp" fitHeight="100.0" fitWidth="100.0" layoutX="399.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/emp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivpro" fitHeight="100.0" fitWidth="100.0" layoutX="502.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/pro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivinvo" fitHeight="100.0" fitWidth="100.0" layoutX="602.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/invo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivgrn" fitHeight="100.0" fitWidth="100.0" layoutX="299.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/grn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivpay" fitHeight="100.0" fitWidth="100.0" layoutX="399.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/pay.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivatt" fitHeight="100.0" fitWidth="100.0" layoutX="502.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/att.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivsett" fitHeight="100.0" fitWidth="100.0" layoutX="602.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image4/sett.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="954.0" layoutY="14.0" onMouseClicked="#setHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image2/add-1-icon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="928.0" layoutY="57.0" mnemonicParsing="false" onAction="#setHome2" text="Button" />
+   </children>
+</AnchorPane>
